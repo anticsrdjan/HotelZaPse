@@ -1,7 +1,10 @@
-﻿namespace HotelZaPse.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace HotelZaPse.Models
 {
     public abstract class Entitet
     {
-        public int? id { get; set; }
+        [Key]
+        public int? Sifra { get; set; }
     }
 }
