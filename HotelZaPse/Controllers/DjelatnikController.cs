@@ -7,7 +7,7 @@ namespace EdunovaAPP.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class SmjerController : ControllerBase
+    public class DjelatnikController : ControllerBase
     {
         // dependency injection
         // 1. definirati privatno svojstvo
@@ -15,7 +15,7 @@ namespace EdunovaAPP.Controllers
 
         // dependecy injection
         // 2. proslijediš instancu kroz konstruktor
-        public SmjerController(EdunovaContext context)
+        public DjelatnikController(EdunovaContext context)
         {
             _context = context;
         }
