@@ -25,7 +25,7 @@ function App() {
 
       </Routes>
       <hr/>
-      &copy; Srđan Antić Osijek
+      &copy; Srđan Antić Osijek Croatia Europe  Hvala Renato Kuni i prof. Jakopecu
     </Container>
     
     </>
